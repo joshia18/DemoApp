@@ -12,7 +12,8 @@ class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.assertTrue(1==1);
+		logger.info("Entering the test");
+		Assertions.assertTrue(1==2);
 	}
 
 }
